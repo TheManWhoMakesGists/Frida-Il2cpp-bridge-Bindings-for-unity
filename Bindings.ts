@@ -18,6 +18,7 @@ Il2Cpp.perform(() => {
     const Vector3 = core.class("UnityEngine.Vector3");
     const Quaternion = core.class("UnityEngine.Quaternion");
     const Mathf = core.class("UnityEngine.Mathf");
+    const XR = core.class("UnityEngine.XR"); //hope thats it
     //ENGINE METHOD BINDINGS
     const find = GameObject.method("Find");
     const findWithTag = GameObject.method("FindGameObjectWithTag");
